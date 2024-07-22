@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761E54D42C4C6D94006383C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54D32C4C6D94006383C0 /* AppDelegate.swift */; };
+		761E54D62C4C6D94006383C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54D52C4C6D94006383C0 /* SceneDelegate.swift */; };
+		761E54D82C4C6D94006383C0 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54D72C4C6D94006383C0 /* CarouselViewController.swift */; };
+		761E54DB2C4C6D94006383C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761E54D92C4C6D94006383C0 /* Main.storyboard */; };
+		761E54DD2C4C6D95006383C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761E54DC2C4C6D95006383C0 /* Assets.xcassets */; };
+		761E54E02C4C6D95006383C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761E54DE2C4C6D95006383C0 /* LaunchScreen.storyboard */; };
+		761E54EB2C4C6D95006383C0 /* VerticalCarouselEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54EA2C4C6D95006383C0 /* VerticalCarouselEffectTests.swift */; };
+		761E54F52C4C6D95006383C0 /* VerticalCarouselEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54F42C4C6D95006383C0 /* VerticalCarouselEffectUITests.swift */; };
+		761E54F72C4C6D95006383C0 /* VerticalCarouselEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E54F62C4C6D95006383C0 /* VerticalCarouselEffectUITestsLaunchTests.swift */; };
+		761E55072C4F0D33006383C0 /* CarouselCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E55062C4F0D33006383C0 /* CarouselCollectionViewLayout.swift */; };
+		761E55092C4F10C8006383C0 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E55082C4F10C8006383C0 /* CarouselCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761E54E72C4C6D95006383C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761E54C82C4C6D94006383C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761E54CF2C4C6D94006383C0;
+			remoteInfo = VerticalCarouselEffect;
+		};
+		761E54F12C4C6D95006383C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761E54C82C4C6D94006383C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761E54CF2C4C6D94006383C0;
+			remoteInfo = VerticalCarouselEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761E54D02C4C6D94006383C0 /* VerticalCarouselEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalCarouselEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761E54D32C4C6D94006383C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		761E54D52C4C6D94006383C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		761E54D72C4C6D94006383C0 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		761E54DA2C4C6D94006383C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761E54DC2C4C6D95006383C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761E54DF2C4C6D95006383C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761E54E12C4C6D95006383C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761E54E62C4C6D95006383C0 /* VerticalCarouselEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalCarouselEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761E54EA2C4C6D95006383C0 /* VerticalCarouselEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCarouselEffectTests.swift; sourceTree = "<group>"; };
+		761E54F02C4C6D95006383C0 /* VerticalCarouselEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalCarouselEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761E54F42C4C6D95006383C0 /* VerticalCarouselEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCarouselEffectUITests.swift; sourceTree = "<group>"; };
+		761E54F62C4C6D95006383C0 /* VerticalCarouselEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCarouselEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		761E55062C4F0D33006383C0 /* CarouselCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewLayout.swift; sourceTree = "<group>"; };
+		761E55082C4F10C8006383C0 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761E54CD2C4C6D94006383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54E32C4C6D95006383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54ED2C4C6D95006383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761E54C72C4C6D94006383C0 = {
+			isa = PBXGroup;
+			children = (
+				761E54D22C4C6D94006383C0 /* VerticalCarouselEffect */,
+				761E54E92C4C6D95006383C0 /* VerticalCarouselEffectTests */,
+				761E54F32C4C6D95006383C0 /* VerticalCarouselEffectUITests */,
+				761E54D12C4C6D94006383C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761E54D12C4C6D94006383C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761E54D02C4C6D94006383C0 /* VerticalCarouselEffect.app */,
+				761E54E62C4C6D95006383C0 /* VerticalCarouselEffectTests.xctest */,
+				761E54F02C4C6D95006383C0 /* VerticalCarouselEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761E54D22C4C6D94006383C0 /* VerticalCarouselEffect */ = {
+			isa = PBXGroup;
+			children = (
+				761E55052C4F0D25006383C0 /* Cells */,
+				761E55042C4F0D1C006383C0 /* Layouts */,
+				761E55032C4F0D10006383C0 /* View Controllers */,
+				761E54D32C4C6D94006383C0 /* AppDelegate.swift */,
+				761E54D52C4C6D94006383C0 /* SceneDelegate.swift */,
+				761E54D92C4C6D94006383C0 /* Main.storyboard */,
+				761E54DC2C4C6D95006383C0 /* Assets.xcassets */,
+				761E54DE2C4C6D95006383C0 /* LaunchScreen.storyboard */,
+				761E54E12C4C6D95006383C0 /* Info.plist */,
+			);
+			path = VerticalCarouselEffect;
+			sourceTree = "<group>";
+		};
+		761E54E92C4C6D95006383C0 /* VerticalCarouselEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				761E54EA2C4C6D95006383C0 /* VerticalCarouselEffectTests.swift */,
+			);
+			path = VerticalCarouselEffectTests;
+			sourceTree = "<group>";
+		};
+		761E54F32C4C6D95006383C0 /* VerticalCarouselEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				761E54F42C4C6D95006383C0 /* VerticalCarouselEffectUITests.swift */,
+				761E54F62C4C6D95006383C0 /* VerticalCarouselEffectUITestsLaunchTests.swift */,
+			);
+			path = VerticalCarouselEffectUITests;
+			sourceTree = "<group>";
+		};
+		761E55032C4F0D10006383C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				761E54D72C4C6D94006383C0 /* CarouselViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		761E55042C4F0D1C006383C0 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				761E55062C4F0D33006383C0 /* CarouselCollectionViewLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		761E55052C4F0D25006383C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				761E55082C4F10C8006383C0 /* CarouselCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761E54CF2C4C6D94006383C0 /* VerticalCarouselEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761E54FA2C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffect" */;
+			buildPhases = (
+				761E54CC2C4C6D94006383C0 /* Sources */,
+				761E54CD2C4C6D94006383C0 /* Frameworks */,
+				761E54CE2C4C6D94006383C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalCarouselEffect;
+			productName = VerticalCarouselEffect;
+			productReference = 761E54D02C4C6D94006383C0 /* VerticalCarouselEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761E54E52C4C6D95006383C0 /* VerticalCarouselEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761E54FD2C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffectTests" */;
+			buildPhases = (
+				761E54E22C4C6D95006383C0 /* Sources */,
+				761E54E32C4C6D95006383C0 /* Frameworks */,
+				761E54E42C4C6D95006383C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761E54E82C4C6D95006383C0 /* PBXTargetDependency */,
+			);
+			name = VerticalCarouselEffectTests;
+			productName = VerticalCarouselEffectTests;
+			productReference = 761E54E62C4C6D95006383C0 /* VerticalCarouselEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		761E54EF2C4C6D95006383C0 /* VerticalCarouselEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761E55002C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffectUITests" */;
+			buildPhases = (
+				761E54EC2C4C6D95006383C0 /* Sources */,
+				761E54ED2C4C6D95006383C0 /* Frameworks */,
+				761E54EE2C4C6D95006383C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761E54F22C4C6D95006383C0 /* PBXTargetDependency */,
+			);
+			name = VerticalCarouselEffectUITests;
+			productName = VerticalCarouselEffectUITests;
+			productReference = 761E54F02C4C6D95006383C0 /* VerticalCarouselEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761E54C82C4C6D94006383C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					761E54CF2C4C6D94006383C0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					761E54E52C4C6D95006383C0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 761E54CF2C4C6D94006383C0;
+					};
+					761E54EF2C4C6D95006383C0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 761E54CF2C4C6D94006383C0;
+					};
+				};
+			};
+			buildConfigurationList = 761E54CB2C4C6D94006383C0 /* Build configuration list for PBXProject "VerticalCarouselEffect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761E54C72C4C6D94006383C0;
+			productRefGroup = 761E54D12C4C6D94006383C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761E54CF2C4C6D94006383C0 /* VerticalCarouselEffect */,
+				761E54E52C4C6D95006383C0 /* VerticalCarouselEffectTests */,
+				761E54EF2C4C6D95006383C0 /* VerticalCarouselEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761E54CE2C4C6D94006383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E54E02C4C6D95006383C0 /* LaunchScreen.storyboard in Resources */,
+				761E54DD2C4C6D95006383C0 /* Assets.xcassets in Resources */,
+				761E54DB2C4C6D94006383C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54E42C4C6D95006383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54EE2C4C6D95006383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761E54CC2C4C6D94006383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E55092C4F10C8006383C0 /* CarouselCollectionViewCell.swift in Sources */,
+				761E55072C4F0D33006383C0 /* CarouselCollectionViewLayout.swift in Sources */,
+				761E54D82C4C6D94006383C0 /* CarouselViewController.swift in Sources */,
+				761E54D42C4C6D94006383C0 /* AppDelegate.swift in Sources */,
+				761E54D62C4C6D94006383C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54E22C4C6D95006383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E54EB2C4C6D95006383C0 /* VerticalCarouselEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761E54EC2C4C6D95006383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E54F52C4C6D95006383C0 /* VerticalCarouselEffectUITests.swift in Sources */,
+				761E54F72C4C6D95006383C0 /* VerticalCarouselEffectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761E54E82C4C6D95006383C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761E54CF2C4C6D94006383C0 /* VerticalCarouselEffect */;
+			targetProxy = 761E54E72C4C6D95006383C0 /* PBXContainerItemProxy */;
+		};
+		761E54F22C4C6D95006383C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761E54CF2C4C6D94006383C0 /* VerticalCarouselEffect */;
+			targetProxy = 761E54F12C4C6D95006383C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761E54D92C4C6D94006383C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761E54DA2C4C6D94006383C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761E54DE2C4C6D95006383C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761E54DF2C4C6D95006383C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761E54F82C4C6D95006383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		761E54F92C4C6D95006383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761E54FB2C4C6D95006383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerticalCarouselEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761E54FC2C4C6D95006383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VerticalCarouselEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		761E54FE2C4C6D95006383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerticalCarouselEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerticalCarouselEffect";
+			};
+			name = Debug;
+		};
+		761E54FF2C4C6D95006383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerticalCarouselEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VerticalCarouselEffect";
+			};
+			name = Release;
+		};
+		761E55012C4C6D95006383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerticalCarouselEffect;
+			};
+			name = Debug;
+		};
+		761E55022C4C6D95006383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4WEEFNVWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VerticalCarouselEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VerticalCarouselEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761E54CB2C4C6D94006383C0 /* Build configuration list for PBXProject "VerticalCarouselEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E54F82C4C6D95006383C0 /* Debug */,
+				761E54F92C4C6D95006383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761E54FA2C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E54FB2C4C6D95006383C0 /* Debug */,
+				761E54FC2C4C6D95006383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761E54FD2C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E54FE2C4C6D95006383C0 /* Debug */,
+				761E54FF2C4C6D95006383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761E55002C4C6D95006383C0 /* Build configuration list for PBXNativeTarget "VerticalCarouselEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E55012C4C6D95006383C0 /* Debug */,
+				761E55022C4C6D95006383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761E54C82C4C6D94006383C0 /* Project object */;
+}
