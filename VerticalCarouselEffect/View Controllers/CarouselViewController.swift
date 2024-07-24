@@ -45,6 +45,9 @@ extension CarouselViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identifier, for: indexPath) as? CarouselCollectionViewCell else { return UICollectionViewCell() }
         
+        if indexPath.item == 9 {
+            cell.containerView.backgroundColor = .cyan
+        }
         return cell
     }
     

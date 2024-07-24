@@ -14,10 +14,11 @@ class CarouselCollectionViewCell: UICollectionViewCell {
         String(describing: CarouselCollectionViewCell.self)
     }
     
-    private let containerView: UIView = {
+    public var containerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .red
+        let colors: [UIColor] = [.red, .blue, .lightGray, .orange, .green]
+        view.backgroundColor = colors.randomElement() ?? .darkGray
         view.layer.cornerRadius = 20
         return view
     }()
